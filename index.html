@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Basketball Scorecard</title>
+</head>
+<body>
+        <div class="container">
+            <div class="home-guest">
+                <h3>HOME</h3>
+                <div class="scorecard">
+                    <div id="home-el" class="scoreboard">0</div>
+                </div>
+                <div class="btn-cnt">
+                    <button onclick="scorerHo1()" type="button" class="inc-btn">+1</button>
+                    <button onclick="scorerHo2()" type="button" class="inc-btn">+2</button>
+                    <button onclick="scorerHo3()" type="button" class="inc-btn">+3</button>
+                </div>
+                <div class="faults">
+                    <div id="faultsho-el" class="faultscard">0</div>
+                </div>
+                <div class="btn-pen">
+                    <button onclick="foulterHo()" type="button" class="pen-btn">FOULS</button>
+                </div>
+
+            </div>
+            
+            <div class="home-guest">
+                <h3>GUEST</h3>
+                <div class="scorecard">
+                     <div id="away-el" class="scoreboard">0</div>
+                </div>
+                <div class="btn-cnt">
+                    <button onclick="scorerAw1()" type="button" class="inc-btn">+1</button>
+                    <button onclick="scorerAw2()" type="button" class="inc-btn">+2</button>
+                    <button onclick="scorerAw3()" type="button" class="inc-btn">+3</button>
+                </div>
+                <div class="faults">
+                    <div id="faultsaw-el" class="faultscard">0</div>
+                </div>
+                <div class="btn-pen">
+                    <button onclick="foulterAw()" type="button" class="pen-btn">FOULS</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+</body>
+</html>
